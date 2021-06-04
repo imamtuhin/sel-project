@@ -55,7 +55,7 @@
                                  $row=mysqli_fetch_array($query);
                                  $cid=$row['user_id'];
                                  echo $row['firstname'];
-                                ?>'s Checking Out!
+                                ?>Checking Out!
                       </h2>
                       <hr color="orange"> 
                 
@@ -115,9 +115,9 @@ $cart_table = mysqli_query($dbconn,"SELECT sum(total) FROM order_details WHERE u
            echo 'Tax: TK'.$tax.' | '; 
            echo 'Shipping Address: '.$ship_add. ' *********';
 
-$query = "INSERT INTO order (user_id, track_num, firstname, middlename, lastname, email, contact, shipping_add, order_date, status, totalprice, tax) 
-        VALUES ('$user_id','$track_num','$firstname','$middlename','$lastname','$email','$contact','$ship_add','$date','Pending',,'$total','$tax')";  
-        $result = mysqli_query($dbconn,$query);
+          $query = "INSERT INTO order(user_id, track_num, firstname, middlename, lastname, email, contact, shipping_add, order_date, status, totalprice, tax) 
+          VALUES ('$user_id','$track_num','$firstname','$middlename','$lastname','$email','$contact','$ship_add','$date','Pending',,'$total','$tax')";  
+          $result = mysqli_query($dbconn,$query);
 
  mysqli_query($dbconn,"UPDATE order_details SET order_id=order_id+1 WHERE user_id='$user_id' AND order_id=''")or die(mysqli_error());
 mysqli_query ($dbconn,"UPDATE order_details SET total_qty =$prod_qty - $qty WHERE prod_id ='$prod_id' AND total_qty='' ");           

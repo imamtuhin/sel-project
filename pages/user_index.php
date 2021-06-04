@@ -62,9 +62,10 @@
                         </a>
                     </li>
 					 <li class="nav-item">
-                        <a href="admin_index.php" class="nav-link" onclick="scrollToDownload()">
+                        <a href="contact.html" class="nav-link" onclick="scrollToDownload()">
                             <i class="now-ui-icons education_paper"></i>
-                            <p>ADMIN PANEL</p>
+                            <p>Contact Us
+                            </p>
                         </a>
                     </li>
                     <li class="nav-item">
@@ -149,6 +150,7 @@
                             <div class="caption">
                               <h5><b><?php echo $res['prod_name'];?></b></h5>
                               <h6><a class="btn btn-success btn-round" title="Click for more details!" href="user_product_details.php?prod_id=<?php echo $res['prod_id'];?>"><i class="now-ui-icons gestures_tap-01"></i>View</a><medium class="pull-right">TK<?php echo $res['prod_price']; ?></medium></h6>
+                              <h6><a class="btn btn-success btn-round" title="Click for pdf" href=""><i class="now-ui-icons gestures_tap-01"></i>PDF</a></h6>
                             </div>
 
                             </div>

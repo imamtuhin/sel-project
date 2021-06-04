@@ -53,6 +53,13 @@ include('config/dbconn.php');
                             <p>Login</p>
                         </a>
                     </li>
+
+                   <li class="nav-item">
+                        <a href="pages/admin_login_page.php" class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
+                            <i class="now-ui-icons users_single-02"></i>
+                            <p>Admin Login</p>
+                        </a>
+                    </li>
                     <li class="nav-item">
                         <a href="pages/user_signup.php" class="nav-link" onclick="scrollToDownload()">
                             <i class="now-ui-icons education_paper"></i>
@@ -139,7 +146,7 @@ include('config/dbconn.php');
         </div>
 
         </div>
-      <hr color="">
+      <hr color="none">
       </div>
              
 <?php }?> 

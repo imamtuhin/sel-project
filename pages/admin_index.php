@@ -40,7 +40,7 @@
     <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="400">
         <div class="container">
             <div class="navbar-translate">
-                <a href="user_index.php">BOOKSHOP</a>
+                <a href="admin_index.php">BOOKSHOP</a>
                 <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-bar bar1"></span>
                     <span class="navbar-toggler-bar bar2"></span>
@@ -143,7 +143,7 @@
                                 <?php endif; ?>
                             <div class="caption">
                               <h5><b><?php echo $res['prod_name'];?></b></h5>
-                              <h6><a class="btn btn-success btn-round" title="Click for more details!" href="admin_product_details.php?prod_id=<?php echo $res['prod_id'];?>"><i class="now-ui-icons gestures_tap-01"></i>View</a><medium class="pull-right">Php<?php echo $res['prod_price']; ?></medium></h6>
+                              <h6><a class="btn btn-success btn-round" title="Click for more details!" href="admin_product_details.php?prod_id=<?php echo $res['prod_id'];?>"><i class="now-ui-icons gestures_tap-01"></i>View</a><medium class="pull-right">TK<?php echo $res['prod_price']; ?></medium></h6>
                             </div>
 
                             </div>

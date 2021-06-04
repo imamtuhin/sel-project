@@ -126,7 +126,7 @@ if(isset($_POST['submit'])){
             $prod_name = $_POST['prod_name'];
             $prod_qty = $_POST['prod_qty'];
             
-            date_default_timezone_set('Asia/Manila');
+            date_default_timezone_set('Asia/Dhaka');
 
             $date = date("Y-m-d H:i:s");
             $id=$_SESSION['id'];

@@ -155,7 +155,7 @@ BOOKSHOP                </a>
                                     <?php endif; ?>
                                 <div class="caption">
                                   <h5><b><?php echo $res['prod_name'];?></b></h5>
-                                  <h6><a class="btn btn-success btn-round" title="Click for more details!" href="admin_product_details.php?prod_id=<?php echo $res['prod_id'];?>"><i class="now-ui-icons gestures_tap-01"></i>View</a><medium class="pull-right">Php<?php echo $res['prod_price']; ?></medium></h6>
+                                  <h6><a class="btn btn-success btn-round" title="Click for more details!" href="admin_product_details.php?prod_id=<?php echo $res['prod_id'];?>"><i class="now-ui-icons gestures_tap-01"></i>View</a><medium class="pull-right">TK<?php echo $res['prod_price']; ?></medium></h6>
                                 </div>
 
                                 </div>
